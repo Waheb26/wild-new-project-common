@@ -4,5 +4,5 @@ type Wilder = {
   email: string;
 };
 
-const helloWilder = (wilder: Wilder) =>
-  `Hello ${wilder.name} from ${wilder.city}`;
+export const helloWilder = (wilder: Wilder) =>
+  `Hello ${wilder.name} from ${wilder.city} :)`;
